@@ -27,3 +27,12 @@ let num1= (a,b) =>
     { return a-b;
 }
 console.log(num1(10,5));
+function add(a,b) {
+  return a + b;
+}
+console.log(add(5, 3));
+
+function greet(name) {   
+  console.log("Hello " + name);
+}
+greet("Ali");  
