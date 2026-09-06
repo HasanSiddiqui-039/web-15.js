@@ -1,0 +1,73 @@
+let num1 = Number(prompt("Enter number 1:"));
+let num2 = Number(prompt("Enter number 2:"));
+let operator = prompt("Enter operator (+, -, *, /):");
+
+switch(operator) {
+
+    case "+":
+        console.log(num1 + num2);
+        break;
+
+    case "-":
+        console.log(num1 - num2);
+        break;
+
+    case "*":
+        console.log(num1 * num2);
+        break;
+
+    case "/":
+        console.log(num1 / num2);
+        break;
+
+    default:
+        console.log("Invalid operator");
+}
+
+let day = Number(prompt("Enter day number:"));
+
+switch(day) {
+    case 1:
+        console.log("Monday");
+        break;
+
+    case 2:
+        console.log("Tuesday");
+        break;
+
+    case 3:
+        console.log("Wednesday");
+        break;
+
+    case 4:
+        console.log("Thursday");
+        break;
+
+    case 5:
+        console.log("Friday");
+        break;
+
+    case 6:
+        console.log("Saturday");
+        break;
+
+    case 7:
+        console.log("Sunday");
+        break;
+
+    default:
+        console.log("Invalid day number");
+}
+
+let num = 1;
+
+switch(num) {
+    case 1:
+        console.log("One");
+
+    case 2:
+        console.log("Two");
+
+    case 3:
+        console.log("Three");
+}
