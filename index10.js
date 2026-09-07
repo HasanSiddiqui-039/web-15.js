@@ -1,3 +1,7 @@
+switch ek decision-making statement hai.
+Jab humein kisi ek value ke basis par multiple options mein se ek option select karna ho, to switch use kar sakte hain.
+
+
 let num1 = Number(prompt("Enter number 1:"));
 let num2 = Number(prompt("Enter number 2:"));
 let operator = prompt("Enter operator (+, -, *, /):");
