@@ -95,3 +95,47 @@ switch(color) {
     default:
         console.log("Invalid color");
 }
+
+let Months = Number(prompt("Enter a Month Name:"));
+
+switch(Months){
+case A:
+  console.log("Jun")
+  break;
+case B:
+  console.log("Feb")
+  break;
+case C:
+  console.log("Mar")
+  break;
+case D:
+  console.log("Apr")
+  break;
+case E:
+  console.log("May")
+  break;
+case F:
+  console.log("June")
+  break;
+case G:
+  console.log("July")
+  break;
+case H:
+  console.log("Agust")
+  break;
+case I:
+  console.log("Sep")
+  break;
+case J:
+  console.log("Oct")
+  break;
+case K:
+  console.log("Nuv")
+  break;
+case L:
+  console.log("Dec")
+  break;
+default:
+  console.log("This is invalid")
+  break;
+}  
