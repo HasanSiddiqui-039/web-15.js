@@ -1,7 +1,9 @@
 switch ek decision-making statement hai.
 Jab humein kisi ek value ke basis par multiple options mein se ek option select karna ho, to switch use kar sakte hain.
 
+Switch statement JavaScript mein ek value ko multiple cases ke saath compare karne ke liye use hota hai. Jo case value se match ho jaye, uska code run hota hai.
 
+    
 let num1 = Number(prompt("Enter number 1:"));
 let num2 = Number(prompt("Enter number 2:"));
 let operator = prompt("Enter operator (+, -, *, /):");
